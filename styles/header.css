@@ -1,6 +1,6 @@
 header {
-    padding-block: 20px;
-    border: 10px;
+    padding-block: 32px;
+    font: var(--text-md);
 }
 
 header .container {
@@ -18,36 +18,33 @@ header .container {
     max-width: 384px;
 }
 
+.main-profile-pic {
+    width: 176px;
+    height: 176px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 #profile h1 {
     font: var(--text-lg);
     color: var(--text-color-primary);
     margin-bottom: 8px;
+    padding-top: 15px;
 }
 
-#profile p {
-    font: var(--text-md);
-}
 
 #info {
     list-style: none;
     display: flex;
     flex-direction: column;
     padding-top: 25px;
-    gap: 13px;
-    width: 500px;
+    gap: 16px;
+    width: 280px;
     align-items: flex-end;
 }
 
 #info li {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
     gap: 8px;
-}
-
-.main-profile-pic {
-    width: 176px;
-    height: 176px;
-    object-fit: cover;
-    border-radius: 50%;
 }
